@@ -1,0 +1,231 @@
+body {
+  background-color: deepskyblue;
+  margin: 10px auto 0px auto;
+  width: 900px;
+  text-align: center;
+}
+
+h1 {
+   border-width: 5px;
+  border-style: solid;
+  background-color: rgb(238, 21, 149);
+  text-align: center;
+  color: rgb(250, 180, 234);
+  justify-content: center;
+  font-size: 45px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.intro {
+    color: white;
+    background-color: #ebb3b2;
+    border-style: inset;
+    border-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.info{
+  background: #FF33A8;
+  color: #DBF2F0;
+  padding: 5px;
+  margin-left: 35px;
+  font-family: helvetica;
+}
+
+.a{
+  background: #b2e9eb;
+  color: darkblue;
+  padding: 5px;
+  margin-left: 35px;
+  font-family: helvetica;
+}
+
+img{
+     padding: 5px;
+     margin-left: 35px;
+     border-radius: 10%;
+     width: 33.33%;  
+}
+
+.gametitle{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  background-color: pink;
+  border-style: outset;
+  border-radius:1px;
+  border-color: aquamarine;
+  color: blue;
+}
+
+#container{
+  margin: 10px auto 0px auto;
+  width: 900px;
+  text-align: center;
+}
+
+.nav{
+  margin: auto;  
+  font-size: 35px;
+  padding: 15px;
+}
+
+.part:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen {
+  .nav{
+    width: 30%;
+    }
+}
+
+
+.header {
+padding: 20px;
+text-align: center;
+}
+
+.row:after{
+content: "";
+display: table;
+clear: both;
+}
+.column{
+float: left;
+width: 33.33%;
+padding: 15px;
+}
+@media screen and(max-width:600px) {
+.column{
+width: 100;
+}
+}
+
+*{
+box-sizing: border-box;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: blueviolet;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* 2 */
+.header {
+font-family: cursive;
+background-color:antiquewhite;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.column {
+ column-count: 1;
+ column-gap: 40px;
+ 
+}
+
+
+/*3*/
+.topnav{
+box-shadow: 5px 10px;
+font-size: 20px;
+opacity: 0.5;
+}
+
+.header{
+color: pink;
+font-size: 30px;
+}
+
+
+
+/* 4 */
+
+.column{
+text-transform: capitalize;
+border-collapse: collapse;
+}
+
+.topnav{
+outline-style: solid;
+outline-color: blue;
+}
+
+
+/* 5 */
+.topnav{
+font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+font-stretch: expanded;
+}
+
+.column{
+text-shadow: 1px 1px black;
+color: deepskyblue;
+background-color: mediumblue;
+}
+
+.button{
+  border-style: ridge;
+  border-width: 5px;
+  border-color: rgb(101, 130, 219);
+  background-color: rgb(193, 173, 240);
+  text-decoration: double;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 10px rgb(39, 73, 168);
+  color: rgb(24, 75, 122);
+  width: 200px;
+}
+.button:hover{
+  color: rgb(17, 52, 105);
+  background-color: rgb(168, 152, 228);
+}
+.button{
+  transition-duration: 0.3s;
+}
+.button:active{
+  box-shadow: 0px 5px rgb(5, 38, 99);
+  transform: translateY(5px);
+}
+
+#go{
+border-width: 5px;
+  border-style: solid;
+  background-color: mediumslateblue;
+  text-align: center;
+  color: aquamarine;
+  justify-content: center;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.logo{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1px;
+  border-radius: 50%;
+}
+
+.pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

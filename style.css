@@ -1,0 +1,194 @@
+#heading{
+  border-width: 5px;
+  border-style: solid;
+  background-color: rgb(238, 21, 149);
+  text-align: center;
+  color: rgb(250, 180, 234);
+  justify-content: center;
+  font-size: 55px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+  background-color: deepskyblue;
+  margin: 10px auto 0px auto;
+  width: 900px;
+  text-align: center;
+}
+
+#go{
+ border-width: 5px;
+  border-style: solid;
+  background-color: mediumslateblue;
+  text-align: center;
+  color: aquamarine;
+  justify-content: center;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.nav{
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.part:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen {
+  .nav{
+    width: 30%;
+    }
+}
+.pic{
+  width: 200px;
+}
+
+
+img{
+  margin-top: 1px;
+  margin-bottom: 50px;
+  margin-right: 30px;
+  margin-left: 30px;
+  border-style: double;
+  width:  200px;
+  height: 200px;
+}
+
+img {
+border-style: double;
+}
+
+
+.button{
+  border-style: ridge;
+  border-width: 5px;
+  border-color: rgb(101, 130, 219);
+  background-color: rgb(193, 173, 240);
+  text-decoration: double;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 10px rgb(39, 73, 168);
+  color: rgb(24, 75, 122);
+  width: 200px;
+}
+.button:hover{
+  color: rgb(17, 52, 105);
+  background-color: rgb(168, 152, 228);
+}
+.button{
+  transition-duration: 0.3s;
+}
+.button:active{
+  box-shadow: 0px 5px rgb(5, 38, 99);
+  transform: translateY(5px);
+}
+
+
+.pic3{
+width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+/* page 2 */ 
+@media screen {
+  .nav1{
+    width: 20%;
+    }
+}
+
+.nav1{
+  float: left;
+  width: 25%;
+  padding: 30px;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: blueviolet;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* 2 */
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.column {
+ column-count: 1;
+ column-gap: 40px;
+ 
+}
+
+
+/*3*/
+.topnav{
+box-shadow: 5px 10px;
+font-size: 20px;
+opacity: 0.5;
+}
+
+
+
+/* 4 */
+
+.column{
+text-transform: capitalize;
+border-collapse: collapse;
+}
+
+.topnav{
+outline-style: solid;
+outline-color: blue;
+}
+
+
+/* 5 */
+.topnav{
+font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+font-stretch: expanded;
+}
+
+.column{
+text-shadow: 1px 1px black;
+color: deepskyblue;
+background-color: mediumblue;
+}
+
+p{
+  border: black solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background-color: purple;
+  color: white; }
+
+.logo{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1px;
+  border-radius: 50%;
+}
+
